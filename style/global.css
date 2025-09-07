@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+:root {
+    --cobalt-color: #0659CD;
+    --royal-color: #043D8C;
+    --azure-color: #0477BF;
+
+    
+    --nav-text: 500 1rem "Montserrat", sans-serif;
+    --p-text: 400 1.5rem "Montserrat", sans-serif;
+    --h2-text: 600 2.5rem "League Spartan", sans-serif;
+    --h3-text: 700 1.75rem "League Spartan", sans-serif;
+    --footer-text: 400 1rem "Montserrat", sans-serif;
+}
