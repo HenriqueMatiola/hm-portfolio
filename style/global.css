@@ -40,3 +40,12 @@ h3 {
     color: #FFFFFF;
     background-color: inherit;
 }
+
+a{
+    color: inherit;
+    background-color: inherit;
+}
+
+p {
+    font: var(--p-text);
+}
