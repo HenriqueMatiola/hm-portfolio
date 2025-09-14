@@ -1,0 +1,39 @@
+.skills {
+    width: 100%;
+    height: 100vh;
+
+    margin: 150px 0px 0px 0px;
+
+    & h2 {
+        justify-content: center;
+    }
+}
+
+.skills-content {
+    width: 100%;
+    /* margin-inline: 100px; */
+
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    gap: 60px;
+}
+
+.hardskills {
+    width: 200px;
+    height: 200px;
+
+    background-color: var(--royal-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    border-radius: 15px;
+    box-shadow: 3px 6px 12px 4px rgba(0, 0, 0, 0.25);
+
+    & img {
+        object-fit: cover;
+    }
+}

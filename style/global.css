@@ -22,3 +22,21 @@
     --h3-text: 700 1.75rem "League Spartan", sans-serif;
     --footer-text: 400 1rem "Montserrat", sans-serif;
 }
+
+h2 {
+    font: var(--h2-text);
+    display: flex;
+    align-items: end;
+    margin-bottom: 80px;
+    margin-inline: 100px;
+
+    & img {
+        margin-right: 15px;
+    }
+}
+
+h3 {
+    font: var(--h3-text);
+    color: #FFFFFF;
+    background-color: inherit;
+}
