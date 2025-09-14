@@ -14,7 +14,8 @@
     --royal-color: #043D8C;
     --azure-color: #0477BF;
 
-    
+    --span-text: 400 2rem "League Spartan", sans-serif;
+    --h1-text: 700 4rem "League Spartan", sans-serif;
     --nav-text: 500 1rem "Montserrat", sans-serif;
     --p-text: 400 1.5rem "Montserrat", sans-serif;
     --h2-text: 600 2.5rem "League Spartan", sans-serif;
