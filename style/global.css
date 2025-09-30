@@ -23,6 +23,10 @@
     --footer-text: 400 1rem "Montserrat", sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h2 {
     font: var(--h2-text);
     display: flex;

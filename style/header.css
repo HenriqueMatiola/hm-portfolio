@@ -13,6 +13,10 @@ header {
             0px 5px 9px -1px rgba(0, 0, 0, 0.10);
 }
 
+.logo, .menu {
+    margin-inline: 80px
+}
+
 .menu {
     display: flex;
     font: var(--nav-text);
