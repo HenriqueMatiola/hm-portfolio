@@ -9,6 +9,10 @@
     background-color: #FFFFFF;
 }
 
+html {
+    position: relative;
+}
+
 :root {
     --cobalt-color: #0659CD;
     --royal-color: #043D8C;
@@ -52,4 +56,17 @@ a{
 
 p {
     font: var(--p-text);
+}
+.buttonTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: transparent;
+
+    & img {
+        background-color: transparent;
+        object-fit: cover;
+    }
 }
