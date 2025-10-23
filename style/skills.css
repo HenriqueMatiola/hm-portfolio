@@ -39,3 +39,26 @@
         object-fit: cover;
     }
 }
+
+
+.fade01 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s ease-out;
+}
+
+.fade01.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade02 {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s ease-out;
+}
+
+.fade02.show {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Henrique Matiola">
+  <!-- Configurações básicas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Henrique Matiola">
+  <meta name="description" content="Portfólio de Henrique Matiola — Desenvolvedor Web apaixonado por criar soluções eficientes com HTML, CSS, JS e mais.">
 
-    <link rel="stylesheet" href="style/index.css">
+  <!-- 🧭 CANONICAL -->
+  <link rel="canonical" href="https://henriquematiola.dev/">
 
-    <title>HM Dev</title>
+  <!-- 🖼️ OPEN GRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HM Dev — Henrique Matiola">
+  <meta property="og:description" content="Portfólio de Henrique Matiola — Desenvolvedor Web Front-End e Back-End.">
+  <meta property="og:image" content="https://henriquematiola.dev/assets/img/preview.jpg">
+  <meta property="og:url" content="https://henriquematiola.dev/">
+  <meta property="og:site_name" content="HM Dev">
+
+  <!-- 🐦 TWITTER CARDS -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HM Dev — Henrique Matiola">
+  <meta name="twitter:description" content="Portfólio de Henrique Matiola — Desenvolvedor Web Full Stack.">
+  <meta name="twitter:image" content="https://henriquematiola.dev/assets/img/preview.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/logo.png" type="image/png">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style/global.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/sobre.css">
+  <link rel="stylesheet" href="style/skills.css">
+  <link rel="stylesheet" href="style/projetos.css">
+  <link rel="stylesheet" href="style/footer.css">
+
+  <title>HM Dev — Henrique Matiola</title>
+</head>
+
 </head>
 <body>
-     <div class="buttonTop">
-            <img src="assets/img/button_top.png" alt="Botão para ir para o topo">
-        </div>
+    <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+
+
     <header >
         <div class="logo">
-            <a href="#home"><img src="assets/img/logo.png" alt="Logo HM Dev"></a>
+            <a href="#home"><img decoding="async" src="assets/img/logo.png" alt="Logo HM Dev"></a>
         </div>
-        <nav class="menu">
+        <nav class="menu" aria-label="Navegação principal">
             <ul>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#skills">Conhecimentos</a></li>
@@ -45,11 +78,20 @@
         </div>
 
         <div class="social-media">
-            <a target="_blank" href="https://www.instagram.com/henrique.matiola"><img src="assets/img/instagram.png" alt="instagram"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/henrique-matiola-3633a52b5"><img src="assets/img/linkedin.png" alt="linkedin"></a>
-            <a target="_blank" href="https://github.com/HenriqueMatiola?tab=repositories"><img src="assets/img/github.png" alt="github"></a>
-            <a target="_blank" href="https://mail.google.com/mail/u/2/#inbox"><img src="assets/img/email.png" alt="email"></a>
-        </div>
+  <a href="https://www.instagram.com/henrique.matiola" target="_blank" rel="noopener noreferrer me">
+    <img src="assets/img/instagram.png" alt="Instagram" loading="lazy" decoding="async">
+  </a>
+  <a href="https://www.linkedin.com/in/henrique-matiola-3633a52b5" target="_blank" rel="noopener noreferrer me">
+    <img src="assets/img/linkedin.png" alt="LinkedIn" loading="lazy" decoding="async">
+  </a>
+  <a href="https://github.com/HenriqueMatiola?tab=repositories" target="_blank" rel="noopener noreferrer me">
+    <img src="assets/img/github.png" alt="GitHub" loading="lazy" decoding="async">
+  </a>
+  <a href="mailto:henrique.matioladev@gmail.com">
+    <img src="assets/img/email.png" alt="E-mail" loading="lazy" decoding="async">
+  </a>
+</div>
+
         <div class="seta">
             <img src="assets/icons/seta.png" alt="">
         </div>
@@ -59,12 +101,12 @@
         <h2><img src="assets/img/pessoa.png" alt="icon Pessoa">Sobre</h2>
 
         <div class="content-sobre">
-            <div class="sobre-text">
+            <div class="sobre-text fade-left">
                 <p>Desde a primeira vez que percebi como o desenvolvimento impacta o cotidiano das pessoas, me encantei com a possibilidade de construir soluções a partir de ideias que tornam a vida mais simples e eficiente. </p>
                 <p>Atualmente <strong>curso Ciência da Computação</strong> na <strong>Universidade do Extremo Sul Catarinense (UNESC)</strong> e sigo em constante aprendizado, buscando sempre evoluir além da sala de aula.</p>
             </div>
 
-            <div class="sobre-photo">
+            <div class="sobre-photo fade-right">
                 <img src="assets/img/Henrique.png" alt="Henrique Matiola">
             </div>
         </div>
@@ -74,42 +116,42 @@
         <h2><img src="assets/img/tool_fill.png" alt="icon ferramenta">Conhecimentos</h2>
 
         <div class="skills-content">
-            <div class="hardskills">
+            <div class="hardskills fade01">
                 <img src="assets/img/html.png" alt="HTML">
                 <h3>HTML</h3>
             </div>
             
-            <div class="hardskills">
+            <div class="hardskills fade01">
                 <img src="assets/img/css.png" alt="CSS">
                 <h3>CSS</h3>
             </div>
             
-            <div class="hardskills">
+            <div class="hardskills fade01">
                 <img src="assets/img/js.png" alt="JavaScript">
                 <h3>JavaScript</h3>
             </div>
 
-            <div class="hardskills">
+            <div class="hardskills fade01">
                 <img src="assets/img/mysql.png" alt="MySQL">
                 <h3>MySQL</h3>
             </div>
 
-            <div class="hardskills">
+            <div class="hardskills fade02">
                 <img src="assets/img/postgres.png" alt="PostgreSQL">
                 <h3>PostgreSQL</h3>
             </div>
 
-            <div class="hardskills">
+            <div class="hardskills fade02">
                 <img src="assets/img/git.png" alt="Git">
                 <h3>Git</h3>
             </div>
 
-            <div class="hardskills">
+            <div class="hardskills fade02">
                 <img src="assets/img/node.png" alt="Node.js">
                 <h3>Node.js</h3>
             </div>
 
-            <div class="hardskills">
+            <div class="hardskills fade02">
                 <img src="assets/img/figma.png" alt="Figma">
                 <h3>Figma</h3>
             </div>
@@ -145,10 +187,12 @@
 
     </footer>
     
-           
+                <div class="buttonTop">
+            <img src="assets/img/button_top.png" alt="Botão para ir para o topo">
+        </div>
     
     
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     
 </body>
 </html>
